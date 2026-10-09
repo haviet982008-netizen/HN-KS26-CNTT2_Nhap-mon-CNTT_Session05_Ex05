@@ -1,0 +1,22 @@
+﻿1.Sơ đồ IPO:
+*Input
+-Các file thô trong Downloads/: 
++ Tệp mã nguồn (.py) 
++Tệp tạm (.tmp) 
++Các file/thư mục khác 
+*Process
+-Quét thư mục
+-Bỏ qua/Ghi đè để tránh trùng tên thư mục 
+-Phân loại file theo đuôi:
++File có đuôi là .png/.jpg chuyển vào thư mục media
++File có đuôi .py chuyển vào thư mục scripts
++File có đuôi .tmp thì xóa file
+*Output
+-Hiện kết quả sau khi máy tính thực hiện xong
+-Giải phóng dung lượng máy 
+2.Danh sách câu lệnh kịch bản
+* cd ~/Downloads
+* new-item media,scripts
+* mv *.png,*.jpg media
+* mv *.py scripts
+* rm *.tmp
